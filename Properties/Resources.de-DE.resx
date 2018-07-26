@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Age" xml:space="preserve">
-    <value>Age</value>
+    <value>Alter</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>Clear</value>
+    <value>Klar</value>
   </data>
   <data name="Gender" xml:space="preserve">
-    <value>Gender</value>
+    <value>Geschlecht</value>
   </data>
   <data name="Greetings" xml:space="preserve">
-    <value>Good morning</value>
+    <value>Guten Morgen</value>
   </data>
   <data name="Instruction" xml:space="preserve">
-    <value>Please fill in the below information:</value>
+    <value>Bitte füllen Sie die folgenden Informationen aus:</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>Save</value>
+    <value>Sparen</value>
   </data>
   <data name="Submit" xml:space="preserve">
-    <value>Submit</value>
+    <value>Einreichen</value>
   </data>
 </root>

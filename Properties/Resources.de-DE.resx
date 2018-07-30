@@ -120,6 +120,10 @@
   <data name="Age" xml:space="preserve">
     <value>Alter</value>
   </data>
+  <data name="ButtonClick" xml:space="preserve">
+    <value>Du hast geklickt {0}</value>
+    <comment>{0}</comment>
+  </data>
   <data name="Clear" xml:space="preserve">
     <value>Klar</value>
   </data>

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizationPoC", "LocalizationPoC.csproj", "{B6C1E318-607D-4C5F-BE5D-947CFBE7447D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{AF690466-2499-481F-B57D-A75C6525C20A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B6C1E318-607D-4C5F-BE5D-947CFBE7447D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C1E318-607D-4C5F-BE5D-947CFBE7447D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C1E318-607D-4C5F-BE5D-947CFBE7447D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF690466-2499-481F-B57D-A75C6525C20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF690466-2499-481F-B57D-A75C6525C20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF690466-2499-481F-B57D-A75C6525C20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF690466-2499-481F-B57D-A75C6525C20A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

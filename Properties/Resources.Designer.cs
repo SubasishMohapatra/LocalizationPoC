@@ -70,6 +70,15 @@ namespace LocalizationPoC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You clicked on {0}.
+        /// </summary>
+        public static string ButtonClick {
+            get {
+                return ResourceManager.GetString("ButtonClick", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clear.
         /// </summary>
         public static string Clear {

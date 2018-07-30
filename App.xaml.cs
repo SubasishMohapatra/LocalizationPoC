@@ -40,15 +40,15 @@ namespace LocalizationPoC
             //   new FrameworkPropertyMetadata(
             //XmlLanguage.GetLanguage(CultureInfo.CurrentCulture.IetfLanguageTag)));
 
-            Initialize(language);
+            Initialize(vCulture);
 
             base.OnStartup(e);
 
         }
 
-        private void Initialize(string language)
+        private void Initialize(CultureInfo cultureInfo)
         {
-            var resourceManager = new ResourceManager(language);
+            var resourceManager = new ResourceManager(cultureInfo);
             _container.RegisterInstance<ResourceManager>(resourceManager, new ContainerControlledLifetimeManager());
             UnityServiceLocator locator = new UnityServiceLocator(_container);
             ServiceLocator.SetLocatorProvider(() => locator);

@@ -1,5 +1,6 @@
 ﻿using Infrastructure;
 using System;
+using System.Threading.Tasks;
 using System.Windows;
 
 namespace LocalizationPoC
@@ -14,11 +15,14 @@ namespace LocalizationPoC
             InitializeComponent();
         }
 
-        private void OnSave(object sender, RoutedEventArgs e)
+        private async void OnSave(object sender, RoutedEventArgs e)
         {
-             //var x = Translation.GetTranslatedText("Save");
-            //MessageBox.Show(String.Format(Properties.Resources.ButtonClick,Properties.Resources.Save));
-            MessageBox.Show(String.Format(Properties.Resources.ButtonClick, Translation.GetTranslatedText("Save")));
+            //Demo of resource localization working for background tasks as well
+            var getTranslatedText = await Task.Run(() =>
+                  //MessageBox.Show(String.Format(Properties.Resources.ButtonClick,Properties.Resources.Save));
+                  String.Format(Properties.Resources.ButtonClick, Translation.GetTranslatedText("Save"))
+            );
+            MessageBox.Show(getTranslatedText);
         }
         private void OnSubmit(object sender, RoutedEventArgs e)
         {
